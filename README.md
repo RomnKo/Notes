@@ -1,4 +1,4 @@
-#Notes
+# Basic Notes App
 ## Phase 1
 1. Store a resource as links hardcoded in component render
 1. Store a resource in state
