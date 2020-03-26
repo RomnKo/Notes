@@ -1,4 +1,4 @@
-#Notes
+# Notes
 ## Phase 1
 1. Store a resource as links hardcoded in component render
 1. Store a resource in state
@@ -20,7 +20,3 @@
 1. Refactor "add new note" functionality into a separate component.
 1. Delete a note
 1. Delete a Resource
-
-
-
-### This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
