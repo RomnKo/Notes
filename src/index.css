@@ -1,0 +1,80 @@
+html {
+    background: #e1003a;
+    /* background: #e6e6e6; */
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'Rubik', helvetica, sans-serif;
+}
+h2 {
+    font-family: 'Nunito', serif;
+    font-style: italic;
+    font-weight: 200;
+}
+form.new-form, .note {
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 25px 50px 50px;
+}
+input {
+    background: none;
+    font-family: inherit;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,.2);
+    padding: 2.5px;
+    width: 100%;
+}
+input:focus, input:hover {
+    box-shadow: 0 2px 0 0 black;
+    transition: ease .2s background;
+}
+input, i {
+    border: 0;
+    background: none;
+    font-size: inherit;
+    cursor: pointer;
+    color: rgba(0,0,0,.9);
+    outline: none;
+}
+input:hover, i:hover {
+    transition: ease .2s background;
+}
+
+.delete {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+}
+.note {
+    /* background: #e9bd44; */
+    /* background: #cf3; */
+    background: #ff0044;
+    /* background: #f9f9f9; */
+    position: relative;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.note:hover .delete {
+    opacity: 1;
+    transition: ease 1s opacity;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0 2.5px;
+}
+.delete-item {
+    position: absolute;
+    right: 20px;
+    color: rgba(0,0,0,0.0);
+}
+.note ul li:hover .delete-item {
+    color: black;
+    transition: ease 1s color;
+}
+::-webkit-input-placeholder {
+    color: rgba(0,0,0,.3);    
+}
