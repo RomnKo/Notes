@@ -1,6 +1,6 @@
 html {
-    background: #e1003a;
-    /* background: #e6e6e6; */
+    /* background: #e1003a; */
+    background: #e6e6e6;
     line-height: 25px;
     font-size: 16px;
     font-family: 'Rubik', helvetica, sans-serif;
@@ -47,8 +47,8 @@ input:hover, i:hover {
 }
 .note {
     /* background: #e9bd44; */
-    /* background: #cf3; */
-    background: #ff0044;
+    background: #cf3;
+    /* background: #ff0044; */
     /* background: #f9f9f9; */
     position: relative;
     border-radius: 5px;
